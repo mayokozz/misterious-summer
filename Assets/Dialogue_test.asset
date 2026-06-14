@@ -13,4 +13,10 @@ MonoBehaviour:
   m_Name: Dialogue_test
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
   dialogueId: NPC_01
-  lines: []
+  lines:
+  - speakerName: npc
+    text: ola
+    portrait: {fileID: 0}
+    choices:
+    - text: ok
+      nextDialogue: {fileID: 0}

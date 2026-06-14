@@ -143,13 +143,11 @@ public class PlayerController : MonoBehaviour
     // ── Sprite flip horizontal ────────────────────────────
     void HandleSpriteFlip()
     {
-        if (spriteTransform == null) return;
         if (Mathf.Abs(lastMoveDir.x) < 0.01f) return;
 
-        // Flip: si va a la izquierda invertimos escala X
-        Vector3 scale = spriteTransform.localScale;
-        scale.x = lastMoveDir.x < 0 ? -Mathf.Abs(scale.x) : Mathf.Abs(scale.x);
-        spriteTransform.localScale = scale;
+        var sr = spriteTransform.GetComponent<SpriteRenderer>();
+        if (sr != null)
+            sr.flipX = lastMoveDir.x < 0;
     }
 
     // ── Animator ──────────────────────────────────────────

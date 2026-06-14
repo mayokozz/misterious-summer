@@ -1,0 +1,12 @@
+# Made in Blockbench 5.1.4
+newmtl m_ef5ea487-43a0-bebe-aaa9-c8db01bcd08e
+map_Kd sand.png
+newmtl m_09b5cd65-abb0-6095-e693-3d1b22f5c652
+map_Kd wet sand.png
+newmtl m_e56c965d-ddb9-a37a-bb1e-aee1137dedbe
+map_Kd water.png
+newmtl m_d63b48de-5995-e43b-dcc1-461060c57ade
+map_Kd texture.png
+newmtl m_4151d73a-df66-1e57-46f9-9d4c2ea4ddc9
+map_Kd castle.png
+newmtl none
