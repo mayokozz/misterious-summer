@@ -1,0 +1,1385 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.10f1 (e35f0c77bd8e) revision 14901004'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'en' Physical Memory: 7830 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-06-14T00:33:07Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mafer" at "2026-06-14T00:33:07.1266254Z"
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/mafer/misterious summer
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+63321
+-licensingIpc
+LicenseClient-mafer
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/mafer/misterious summer
+C:/Users/mafer/misterious summer
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [20136]  Target information:
+
+Player connection [20136]  * "[IP] 192.168.1.16 [Port] 0 [Flags] 2 [Guid] 2712661169 [EditorId] 2712661169 [Version] 1048832 [Id] WindowsEditor(7,star) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20136] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [20136] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 16.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.10f1 (e35f0c77bd8e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/mafer/misterious summer/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f9d)
+    Vendor:   NVIDIA
+    VRAM:     3935 MB
+    Driver:   32.0.15.9227
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010569 seconds.
+- Loaded All Assemblies, in  1.875 seconds
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.008 seconds
+Domain Reload Profiling: 2873ms
+	BeginReloadAssembly (643ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (6ms)
+	RebuildCommonClasses (121ms)
+	RebuildNativeTypeToScriptingClass (43ms)
+	initialDomainReloadingComplete (175ms)
+	LoadAllAssembliesAndSetupDomain (882ms)
+		LoadAssemblies (618ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (874ms)
+			TypeCache.Refresh (859ms)
+				TypeCache.ScanAssembly (750ms)
+			BuildScriptInfoCaches (1ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (1009ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (888ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (104ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (204ms)
+			ProcessInitializeOnLoadAttributes (357ms)
+			ProcessInitializeOnLoadMethodAttributes (214ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              6d9c23411c70440eb70d2fc18b95afde
+  Correlation Id:          b046f9fa59cd56de9788c01ee54d9cd7
+  External correlation Id: 1963611108542713225
+  Machine Id:              BCpR7cRgYSmjxzbilRgBs2o04Tk=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-mafer" (connect: 0.02s, validation: 0.02s, handshake: 5.58s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mafer-notifications" at "2026-06-14T00:33:12.7241518Z"
+[Licensing::Module] Licensing Background thread has ended after 5.62s
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 4674080092317-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  2.180 seconds
+Refreshing native plugins compatible for Editor in 2.02 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.789 seconds
+Domain Reload Profiling: 3956ms
+	BeginReloadAssembly (518ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (77ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (89ms)
+	LoadAllAssembliesAndSetupDomain (1457ms)
+		LoadAssemblies (1182ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (586ms)
+			TypeCache.Refresh (411ms)
+				TypeCache.ScanAssembly (372ms)
+			BuildScriptInfoCaches (143ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (1790ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1231ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (355ms)
+			ProcessInitializeOnLoadAttributes (704ms)
+			ProcessInitializeOnLoadMethodAttributes (143ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 5.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6189 unused Assets / (4.4 MB). Loaded Objects now: 7006.
+Memory consumption went from 145.1 MB to 140.8 MB.
+Total: 29.826000 ms (FindLiveObjects: 3.127100 ms CreateObjectMapping: 1.627800 ms MarkObjects: 16.972100 ms  DeleteObjects: 8.095900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 284657.731732 seconds.
+  path: Assets/misterioussummer.unity
+  artifactKey: Guid(1ba25cdeb62484641a224076c0e2286f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/misterioussummer.unity using Guid(1ba25cdeb62484641a224076c0e2286f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2b1d064d29be580332a42e381e7cd594') in 0.1832607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/maps/map_beach/ssand.jpg
+  artifactKey: Guid(08728b0c48693eb45b282e40dfb1c8f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/maps/map_beach/ssand.jpg using Guid(08728b0c48693eb45b282e40dfb1c8f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b30bace54d3a8dd31b05837ac16b3378') in 0.1868751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/misterioussummer
+  artifactKey: Guid(19a23fb8d4352e14299083c5b806b5e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/misterioussummer using Guid(19a23fb8d4352e14299083c5b806b5e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a8246e4ec8645fb1d817e7f9d0514769') in 0.022609 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.268332 seconds.
+  path: Assets/sprites/idle player
+  artifactKey: Guid(2a1312c3e8bd28e4082aad1c3b7f2e55) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player using Guid(2a1312c3e8bd28e4082aad1c3b7f2e55) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aa098b8fa5bbf83052a2b727a83a1992') in 0.1185741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/sprites/idle player/0095_3.png
+  artifactKey: Guid(b914bfb057b63d24c9149b4030f680b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0095_3.png using Guid(b914bfb057b63d24c9149b4030f680b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '94c14670b67b932bbb16d4e3fddce565') in 0.0592106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/sprites/idle player/0092_3.png
+  artifactKey: Guid(387dcf40fc28a5a498e25ecea661c274) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0092_3.png using Guid(387dcf40fc28a5a498e25ecea661c274) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7359e5a13a8d69a05f5d37d6d9f7a1da') in 0.0511816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/sprites/idle player/0102_3.png
+  artifactKey: Guid(f4aa55276a385da4888e8963cb2cc2fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0102_3.png using Guid(f4aa55276a385da4888e8963cb2cc2fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e2192d1edf7cc5739787ad85cb79a19d') in 0.0327103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/sprites/idle player/0004_4.png
+  artifactKey: Guid(38c050e090b3d664ea9ed863452ce856) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0004_4.png using Guid(38c050e090b3d664ea9ed863452ce856) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd024574b04cd067aaa3efcdf2c4cc181') in 0.0404555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/sprites/idle player/0038_3.png
+  artifactKey: Guid(134477c029fa57340ad029aa458f267d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0038_3.png using Guid(134477c029fa57340ad029aa458f267d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f25b8b1fb2bb52e30cc0b62116525a08') in 0.0247783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/sprites/idle player/0074_3.png
+  artifactKey: Guid(f4621520ce4423848b0195b4812ed932) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0074_3.png using Guid(f4621520ce4423848b0195b4812ed932) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '96997ca4edb8e9274031dafcba14fb80') in 0.0294191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/sprites/idle player/0124_3.png
+  artifactKey: Guid(b4907fc9866fd9740847b62008bd703c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0124_3.png using Guid(b4907fc9866fd9740847b62008bd703c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '493e68b5cae092694a939f9959bf8bdc') in 0.0311984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/sprites/idle player/0020_3.png
+  artifactKey: Guid(45de47bd086f75a49a794be729ebf264) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0020_3.png using Guid(45de47bd086f75a49a794be729ebf264) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b77e9191ab380560a40fc8d6c1f5481e') in 0.0288974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/sprites/idle player/0122_3.png
+  artifactKey: Guid(e4ac88d295c20e749b310cc85156feaa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0122_3.png using Guid(e4ac88d295c20e749b310cc85156feaa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '86db8625997f86837ee38ac5f962f417') in 0.0294331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/sprites/idle player/0134_3.png
+  artifactKey: Guid(7369ed2a6b754e04d96a1c6cbc66600c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0134_3.png using Guid(7369ed2a6b754e04d96a1c6cbc66600c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9eadf0103428ae47a3df6141130a1083') in 0.0272563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/sprites/idle player/0010_4.png
+  artifactKey: Guid(a387076a8c7710b4f9113afb4ddbfa3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0010_4.png using Guid(a387076a8c7710b4f9113afb4ddbfa3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '44f58cc26032eab6b1cf34af7f187746') in 0.0274608 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/sprites/idle player/0039_3.png
+  artifactKey: Guid(7af344e055c3e214ea3fd0402ef21fb5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0039_3.png using Guid(7af344e055c3e214ea3fd0402ef21fb5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'caed3d7f06a029bac7afe463ebf8c8b2') in 0.0395839 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/sprites/idle player/0063_3.png
+  artifactKey: Guid(b3d77237981bc4648823a92f0f502258) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0063_3.png using Guid(b3d77237981bc4648823a92f0f502258) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4ea353471d9d4f4e7fa7a2b61e7ce8ef') in 0.0466824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/sprites/idle player/0054_3.png
+  artifactKey: Guid(0d556fb7025264f4ba45c29c74c8ae18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0054_3.png using Guid(0d556fb7025264f4ba45c29c74c8ae18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '90181fbc79c34e239f016db075c59a23') in 0.0461795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/sprites/idle player/0055_4.png
+  artifactKey: Guid(4c8175cdc45a9b94384eeebad325e5b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0055_4.png using Guid(4c8175cdc45a9b94384eeebad325e5b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '59dcae8d4cd2d69de05cf468fc27e58c') in 0.0528233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/sprites/idle player/0140_3.png
+  artifactKey: Guid(cdff17529b339c44d96c4be51cf70ef4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0140_3.png using Guid(cdff17529b339c44d96c4be51cf70ef4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b40ca1e6e8f94fae9b3b6f6e45f30a10') in 0.0403942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/sprites/idle player/0056_3.png
+  artifactKey: Guid(7f8d15001f21e3344b53f2f939ef0ad5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0056_3.png using Guid(7f8d15001f21e3344b53f2f939ef0ad5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5701541bc943e1da9477ec3f42deafb8') in 0.034746 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sprites/idle player/0142_4.png
+  artifactKey: Guid(c08895d7920374440b08dc164ad43df6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0142_4.png using Guid(c08895d7920374440b08dc164ad43df6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3fdb28c83aa97fce7743cc48d2d582ab') in 0.0336046 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/sprites/idle player/0068_3.png
+  artifactKey: Guid(558188332e8a9e4459469ade82420717) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0068_3.png using Guid(558188332e8a9e4459469ade82420717) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd133344528e29d56f811103f6d33d7da') in 0.0382237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/sprites/idle player/0087_3.png
+  artifactKey: Guid(ad3e402541ad7654dab9d6beaa73f153) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0087_3.png using Guid(ad3e402541ad7654dab9d6beaa73f153) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c568d59e684b5fef89b1bd8c0129b866') in 0.0345215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/sprites/idle player/0131_3.png
+  artifactKey: Guid(819ff83023492924790921d1673d219c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0131_3.png using Guid(819ff83023492924790921d1673d219c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7443d3ed6b2955c3a1581f09d745c632') in 0.035623 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/sprites/idle player/0127_4.png
+  artifactKey: Guid(b3c7eba9c389feb4fa7b39409b674793) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0127_4.png using Guid(b3c7eba9c389feb4fa7b39409b674793) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f30f9989f57750fa1d7537a39af17afc') in 0.0420002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/sprites/idle player/0114_3.png
+  artifactKey: Guid(1413e66324936d941bf1547b130d97b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0114_3.png using Guid(1413e66324936d941bf1547b130d97b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f3641009dc725c7a2ad3384e817d56d2') in 0.0330801 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/sprites/idle player/0117_3.png
+  artifactKey: Guid(478e4d5f78c189c4ab2db2e6466ff655) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0117_3.png using Guid(478e4d5f78c189c4ab2db2e6466ff655) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '25d74173ac4b4034731b1315f981c3e5') in 0.0338953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/sprites/idle player/0069_3.png
+  artifactKey: Guid(85b9571e8a698974f9ed0bf2ebf722c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0069_3.png using Guid(85b9571e8a698974f9ed0bf2ebf722c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ce94b75c238f2b40299f3508fd0479f2') in 0.0447458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/sprites/idle player/0066_3.png
+  artifactKey: Guid(596e7ca9bba10544e95944b3441b4a81) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0066_3.png using Guid(596e7ca9bba10544e95944b3441b4a81) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f7fdf44b9df1aeae868763a2b1638397') in 0.0440601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/sprites/idle player/0128_3.png
+  artifactKey: Guid(fb82f48086a695e49921ddb69089a71b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0128_3.png using Guid(fb82f48086a695e49921ddb69089a71b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '61ffc63d4079b686eb09d860ebfc3d0d') in 0.0275305 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/sprites/idle player/0035_3.png
+  artifactKey: Guid(e6189f29d7790ed40acf7176f8788554) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0035_3.png using Guid(e6189f29d7790ed40acf7176f8788554) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3621c2efda4776e8dfc3255ca5d41cfa') in 0.0326688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/sprites/idle player/0001_0.png
+  artifactKey: Guid(00734c6be542c1b438a5e6cf74e8492a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0001_0.png using Guid(00734c6be542c1b438a5e6cf74e8492a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '25f35fbda47a4650615ae4277351c587') in 0.0472888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/sprites/idle player/0033_3.png
+  artifactKey: Guid(1ac83f9cd0ffdca47a1ac32d7fa2ee0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0033_3.png using Guid(1ac83f9cd0ffdca47a1ac32d7fa2ee0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e480e8390703b3a34dbb3641560a4ebf') in 0.0424499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/sprites/idle player/0085_4.png
+  artifactKey: Guid(64c5498cd2ed5df44ae4b87bb2a8689f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0085_4.png using Guid(64c5498cd2ed5df44ae4b87bb2a8689f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd992213e4c7188b5234601d7a12001e9') in 0.0315373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/sprites/idle player/0023_3.png
+  artifactKey: Guid(9d98595f02023d04e9b3fb395433e2a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0023_3.png using Guid(9d98595f02023d04e9b3fb395433e2a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '19acfbd53a824b2754c8ef883b9f1f72') in 0.0304987 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/sprites/idle player/0137_3.png
+  artifactKey: Guid(605db5eae6cc827499843b1abb4752c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0137_3.png using Guid(605db5eae6cc827499843b1abb4752c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cd1dfbbb8925800c77dabdf850cd0d81') in 0.0326897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/sprites/idle player/0139_4.png
+  artifactKey: Guid(3dfab5b31b140b743a1101e8c313e96a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0139_4.png using Guid(3dfab5b31b140b743a1101e8c313e96a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7bf48086d88775ab214be8a532e76b2f') in 0.0366438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/sprites/idle player/0061_4.png
+  artifactKey: Guid(a0bdf2e445a026f4b9faa86814da87db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0061_4.png using Guid(a0bdf2e445a026f4b9faa86814da87db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fccd29d939183f83e35c35740925bb14') in 0.0369508 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/sprites/idle player/0125_4.png
+  artifactKey: Guid(78bdf81d0eadd264aa0a7f77fe810828) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0125_4.png using Guid(78bdf81d0eadd264aa0a7f77fe810828) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b868c200b929099c5c97693ef6e3f027') in 0.0356789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/sprites/idle player/0058_4.png
+  artifactKey: Guid(c597af55852da5b4a9f04ce7add8f1cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0058_4.png using Guid(c597af55852da5b4a9f04ce7add8f1cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b8c4b9c089db8277e6d2f56ac682f568') in 0.0334405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/sprites/idle player/0099_3.png
+  artifactKey: Guid(913ea51c363937a469feb9981cc60d1b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0099_3.png using Guid(913ea51c363937a469feb9981cc60d1b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aaf0c93ca026625bb10db96b72aa1d64') in 0.0330487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/sprites/idle player/0133_4.png
+  artifactKey: Guid(b8c3e7cfd36bfd14c97bf8dafbac853b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0133_4.png using Guid(b8c3e7cfd36bfd14c97bf8dafbac853b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '53974bcc88f92ef9539b0a15ed27cdea') in 0.0274755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/sprites/idle player/0109_4.png
+  artifactKey: Guid(36fe94d613a6e184982ac63b2b3b32e4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0109_4.png using Guid(36fe94d613a6e184982ac63b2b3b32e4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ae7e5528619a0b86ffe1ecd379bf8059') in 0.054416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/sprites/idle player/0041_3.png
+  artifactKey: Guid(d126edb519058f54baf3c2cc8630136a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0041_3.png using Guid(d126edb519058f54baf3c2cc8630136a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd93233cc547024197737f5a51d2cc3a6') in 0.0346731 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/sprites/idle player/0021_3.png
+  artifactKey: Guid(0ecb5b7de265021458deb1422cbc3bd0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0021_3.png using Guid(0ecb5b7de265021458deb1422cbc3bd0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd8299b72a794e63f71797d1e66d4e495') in 0.0368601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/sprites/idle player/0110_3.png
+  artifactKey: Guid(bcc7acbabef242f41a8d7b83fcb99110) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0110_3.png using Guid(bcc7acbabef242f41a8d7b83fcb99110) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '745a8268835a6961021fdd34eaac8a7d') in 0.0211161 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/sprites/idle player/0104_3.png
+  artifactKey: Guid(ad7bde09b67697241873597703153e2e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0104_3.png using Guid(ad7bde09b67697241873597703153e2e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '898fb7b053e0569d2495f45ca56e85ea') in 0.0320575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/sprites/idle player/0022_4.png
+  artifactKey: Guid(43104822a2d2e214d87670b8fe2ed9e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0022_4.png using Guid(43104822a2d2e214d87670b8fe2ed9e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7420f6e2b37f25dafdb2fd562ab882a7') in 0.0396086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/sprites/idle player/0091_4.png
+  artifactKey: Guid(77162aa84ce153747b622a1eeff4ffa8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0091_4.png using Guid(77162aa84ce153747b622a1eeff4ffa8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '03e885c07ce2e75dd8a6cc9f2c68c36f') in 0.0332537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/sprites/idle player/0113_3.png
+  artifactKey: Guid(6948d82a73ad7b04991394057fbac68c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0113_3.png using Guid(6948d82a73ad7b04991394057fbac68c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd6b183f8a459812d3dd6931a58528b9a') in 0.029327 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/sprites/idle player/0034_4.png
+  artifactKey: Guid(8b233702e45dc9a428b8497f68f481ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0034_4.png using Guid(8b233702e45dc9a428b8497f68f481ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9000b73db8751270bf7bb508b6e8ff08') in 0.0262909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/sprites/idle player/0024_3.png
+  artifactKey: Guid(f226398b2dc01934e8b3accb43d911a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0024_3.png using Guid(f226398b2dc01934e8b3accb43d911a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2e9381aa55df0e8c6c6b18c092181693') in 0.0344454 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/sprites/idle player/0121_4.png
+  artifactKey: Guid(6b308fae0222b234fbb4a5a94ae59c1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0121_4.png using Guid(6b308fae0222b234fbb4a5a94ae59c1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '68bc3aa96c768e9cd23f9d99023516d1') in 0.0440559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/sprites/idle player/0089_3.png
+  artifactKey: Guid(e7b3682bfda22e74ea62b0542d4bee7d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0089_3.png using Guid(e7b3682bfda22e74ea62b0542d4bee7d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e2f459eac4eeea8f3302a2ba6f22d518') in 0.036243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/sprites/idle player/0040_4.png
+  artifactKey: Guid(b22e6fc793d552345a16ce35815ebfab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0040_4.png using Guid(b22e6fc793d552345a16ce35815ebfab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '08927d955a63d6be8c7343f649c5eb36') in 0.0308239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/sprites/idle player/0029_3.png
+  artifactKey: Guid(123d3f006d277e64aae36bd57d54fb95) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0029_3.png using Guid(123d3f006d277e64aae36bd57d54fb95) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5a89a2a4a4031b792ddcbcb77885fd89') in 0.0314103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/sprites/idle player/0129_3.png
+  artifactKey: Guid(0c9701d6267bbb940b29b44235caac1c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0129_3.png using Guid(0c9701d6267bbb940b29b44235caac1c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a7b64b0a5b8e52ef109dd405cbbc1bd6') in 0.045286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/sprites/idle player/0141_3.png
+  artifactKey: Guid(2e8d69587fb26fe43958a1334f523577) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0141_3.png using Guid(2e8d69587fb26fe43958a1334f523577) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4a739e3cfcd8a83cc5b7c704eb9803a7') in 0.0650697 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/sprites/idle player/0044_3.png
+  artifactKey: Guid(45dd4eb78ff5da74da906480a8d030cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0044_3.png using Guid(45dd4eb78ff5da74da906480a8d030cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7990c0cbca35f26aa542c13326ddc77f') in 0.036712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/sprites/idle player/0138_3.png
+  artifactKey: Guid(0177574e4e5203f4ab3d631379b54217) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0138_3.png using Guid(0177574e4e5203f4ab3d631379b54217) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e9f4d35c277e69b5d327aaacf2d54a1b') in 0.0353394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/sprites/idle player/0101_3.png
+  artifactKey: Guid(cd0803f52aa1c2e4a9ab1d8508abc064) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0101_3.png using Guid(cd0803f52aa1c2e4a9ab1d8508abc064) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c583d2679bcc9729d529be5a6844e249') in 0.0315313 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/sprites/idle player/0081_3.png
+  artifactKey: Guid(38f30f8256fef5a4ba46c6ef65e5a23c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0081_3.png using Guid(38f30f8256fef5a4ba46c6ef65e5a23c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1381ffc82f87392e08ae07eb11334d41') in 0.0579695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/sprites/idle player/0073_4.png
+  artifactKey: Guid(c68e6ca8939d59e42a5dfeb10ec7e388) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0073_4.png using Guid(c68e6ca8939d59e42a5dfeb10ec7e388) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3bf89b2e3558a8f081023dba35c1fc50') in 0.042003 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/sprites/idle player/0136_4.png
+  artifactKey: Guid(820411ccb231d8e4dbc99f4e10a28be2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0136_4.png using Guid(820411ccb231d8e4dbc99f4e10a28be2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '446e11312550722f9f7e5ba4d11839bb') in 0.0407712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/sprites/idle player/0075_3.png
+  artifactKey: Guid(46e39095bb1a2b34993b5c0fb3cde079) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0075_3.png using Guid(46e39095bb1a2b34993b5c0fb3cde079) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '847aff79239a61cfae31570f074941d4') in 0.0306578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/sprites/idle player/0098_3.png
+  artifactKey: Guid(9a8b5e8b5c7684249bc4b3fde7c42f7e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0098_3.png using Guid(9a8b5e8b5c7684249bc4b3fde7c42f7e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8fe4459e8fc6693b0d8f7bd335ab3903') in 0.0309059 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/sprites/idle player/0006_3.png
+  artifactKey: Guid(5b2e1f1dc24cf284397f8c9380c0710d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0006_3.png using Guid(5b2e1f1dc24cf284397f8c9380c0710d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '698e1c410b9f92cb282b9a50be291ad2') in 0.0378712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/sprites/idle player/0119_3.png
+  artifactKey: Guid(d137116b31bd1e546bf03537a69366af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0119_3.png using Guid(d137116b31bd1e546bf03537a69366af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '64dbd7a1e4a96e540488f58e931e939c') in 0.0309892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/sprites/idle player/0094_4.png
+  artifactKey: Guid(6f5b0b6e9c4af9a46bcc3f6bb64e2762) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0094_4.png using Guid(6f5b0b6e9c4af9a46bcc3f6bb64e2762) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dfe38a80f4472d647272c9f11cbc41f1') in 0.0296838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/sprites/idle player/0049_4.png
+  artifactKey: Guid(321b380b0c4fc1e41beaf3dd2f027039) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0049_4.png using Guid(321b380b0c4fc1e41beaf3dd2f027039) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a4592c3da950398fbdbcdb32ba992fb5') in 0.0394906 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/sprites/idle player/0043_4.png
+  artifactKey: Guid(94f9d7b9b17676e4ab199bf3a4c274e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0043_4.png using Guid(94f9d7b9b17676e4ab199bf3a4c274e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1853aba015440e3818d55f73b1b2c424') in 0.0340954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/sprites/idle player/0059_3.png
+  artifactKey: Guid(b88d3a5ab3f28f24dba35e4595548858) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0059_3.png using Guid(b88d3a5ab3f28f24dba35e4595548858) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '63c307934b4767b8d4a8d2370b57e62b') in 0.0275905 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/sprites/idle player/0112_4.png
+  artifactKey: Guid(732dac0cf40373543a7662a5de43dfba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0112_4.png using Guid(732dac0cf40373543a7662a5de43dfba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'edb39f85c66ddcd36f67f01c73d37bc2') in 0.0334445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/sprites/idle player/0120_3.png
+  artifactKey: Guid(9e4e666c5d96cc54f9f52aa1b3166704) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0120_3.png using Guid(9e4e666c5d96cc54f9f52aa1b3166704) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fd8b3e4d7d174c8340a9f8d328bf4b81') in 0.0323447 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/sprites/idle player/0052_4.png
+  artifactKey: Guid(26cc1ccabe79d8b449e8b3ab5a511455) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0052_4.png using Guid(26cc1ccabe79d8b449e8b3ab5a511455) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5b0c14bb43b8599143cf7b1d0d54d880') in 0.0362248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.477410 seconds.
+  path: Assets/sprites/idle player/0116_3.png
+  artifactKey: Guid(482c54d3c8056f24480476a7addae09d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0116_3.png using Guid(482c54d3c8056f24480476a7addae09d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2f502ac37eee0d533411da726b3cfce0') in 0.3772539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/sprites/idle player/0011_3.png
+  artifactKey: Guid(47b8bbdfb5743d641873370341663ffd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0011_3.png using Guid(47b8bbdfb5743d641873370341663ffd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9797d15587ccc855a26feec774552d9b') in 0.0308392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/sprites/idle player/0019_4.png
+  artifactKey: Guid(bd7b7045307cfd1489ec36a6595495a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0019_4.png using Guid(bd7b7045307cfd1489ec36a6595495a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6206160ed83af4feed698b130400cfb8') in 0.0293312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/sprites/idle player/0042_3.png
+  artifactKey: Guid(1b7ec57a77b272c44baedf83d7075503) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0042_3.png using Guid(1b7ec57a77b272c44baedf83d7075503) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5d1258bcce6d0885c707ff2b10caafef') in 0.0337263 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/sprites/idle player/0093_3.png
+  artifactKey: Guid(4efefd0f0ada96040bc47da3b367ebc6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0093_3.png using Guid(4efefd0f0ada96040bc47da3b367ebc6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'da8da8f058f8ae6615f842ac862a9773') in 0.0352766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/sprites/idle player/0064_4.png
+  artifactKey: Guid(8e5538c1ef0f77e4e9cad302825bc860) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0064_4.png using Guid(8e5538c1ef0f77e4e9cad302825bc860) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c5b02af539ccd5b00390836904d53ba9') in 0.0467924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/sprites/idle player/0009_3.png
+  artifactKey: Guid(d61c0ba4c2ecbc94b88894824e1d70a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0009_3.png using Guid(d61c0ba4c2ecbc94b88894824e1d70a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6a614193ea25a4f13390cf09e18d4ba4') in 0.0344394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/sprites/idle player/0039_3.png
+  artifactKey: Guid(7af344e055c3e214ea3fd0402ef21fb5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0039_3.png using Guid(7af344e055c3e214ea3fd0402ef21fb5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f38c4d7a94c46af5562d62379dfbe31b') in 0.0304745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/sprites/idle player/0130_4.png
+  artifactKey: Guid(1112e8ce9216ffe4dbcc623c1b973ad7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0130_4.png using Guid(1112e8ce9216ffe4dbcc623c1b973ad7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '27aec9cf3e44aa74515c03f2b45bec53') in 0.0404745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/sprites/idle player/0010_4.png
+  artifactKey: Guid(a387076a8c7710b4f9113afb4ddbfa3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0010_4.png using Guid(a387076a8c7710b4f9113afb4ddbfa3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '75db94f8627cb42c4ca914d9412bcfa2') in 0.0337304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/sprites/idle player/0018_3.png
+  artifactKey: Guid(3461d47e621a98848bafc441e784bbca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0018_3.png using Guid(3461d47e621a98848bafc441e784bbca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f094658e638d3c9a03a9e0cee81726b9') in 0.0312642 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/sprites/idle player/0140_3.png
+  artifactKey: Guid(cdff17529b339c44d96c4be51cf70ef4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0140_3.png using Guid(cdff17529b339c44d96c4be51cf70ef4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3f9c26659d4ece2de66c496dcbbd9069') in 0.0405481 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/sprites/idle player/0054_3.png
+  artifactKey: Guid(0d556fb7025264f4ba45c29c74c8ae18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0054_3.png using Guid(0d556fb7025264f4ba45c29c74c8ae18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'efd8009eadd20e4770db1fd22512f641') in 0.0289478 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/sprites/idle player/0055_4.png
+  artifactKey: Guid(4c8175cdc45a9b94384eeebad325e5b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0055_4.png using Guid(4c8175cdc45a9b94384eeebad325e5b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '89104d79e5415a385ee6ca0e00334587') in 0.0358867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/sprites/idle player/0056_3.png
+  artifactKey: Guid(7f8d15001f21e3344b53f2f939ef0ad5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0056_3.png using Guid(7f8d15001f21e3344b53f2f939ef0ad5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '48d7570bfb5dad80030570dae93ec9eb') in 0.0346324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/sprites/idle player/0077_3.png
+  artifactKey: Guid(8c2ea153ac68068409e54646c87a00b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0077_3.png using Guid(8c2ea153ac68068409e54646c87a00b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fbd72287e4f4f2cbcafb99051f74ddcd') in 0.053592 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/sprites/idle player/0132_3.png
+  artifactKey: Guid(01c7e5806fbcde341b4f4cd947d945d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0132_3.png using Guid(01c7e5806fbcde341b4f4cd947d945d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b91c91c5966eda09bdc3357ba280388c') in 0.1200217 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/sprites/idle player/0087_3.png
+  artifactKey: Guid(ad3e402541ad7654dab9d6beaa73f153) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0087_3.png using Guid(ad3e402541ad7654dab9d6beaa73f153) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e9c5c4c4336e3b0402a2cd34d605525a') in 0.0539431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/sprites/idle player/0032_3.png
+  artifactKey: Guid(dd315560ef7c2aa41982058675094fa1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0032_3.png using Guid(dd315560ef7c2aa41982058675094fa1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9b59e0d22fe6c3a204a65c1ded9496b2') in 0.0978443 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/sprites/idle player/0036_3.png
+  artifactKey: Guid(1766a4c6feaf8594186a5353e954e69a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0036_3.png using Guid(1766a4c6feaf8594186a5353e954e69a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7c34830565151cea059b8dd2e2e25e54') in 0.062242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/sprites/idle player/0106_4.png
+  artifactKey: Guid(00fd01f7c63eb4240b05aa6cd81dfeea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0106_4.png using Guid(00fd01f7c63eb4240b05aa6cd81dfeea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd7dba7a7131e145904952db8a67b876a') in 0.0476956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/sprites/idle player/0127_4.png
+  artifactKey: Guid(b3c7eba9c389feb4fa7b39409b674793) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0127_4.png using Guid(b3c7eba9c389feb4fa7b39409b674793) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4a8d3cdfc9d772862ffcacc908e84a79') in 0.045999 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/sprites/idle player/0082_4.png
+  artifactKey: Guid(79e522b2deebf934e8de9a9fe697861e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0082_4.png using Guid(79e522b2deebf934e8de9a9fe697861e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f212b43f4459d637eca8e65fc930c25b') in 0.0396812 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/sprites/idle player/0117_3.png
+  artifactKey: Guid(478e4d5f78c189c4ab2db2e6466ff655) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0117_3.png using Guid(478e4d5f78c189c4ab2db2e6466ff655) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c18ffc5cd28d6df864a77a170e51837d') in 0.1024187 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/sprites/idle player/0037_4.png
+  artifactKey: Guid(1f8cf2b2e4f1d934e9124152f7066b27) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0037_4.png using Guid(1f8cf2b2e4f1d934e9124152f7066b27) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fef6e97355ccdbafc0540895e98fb939') in 0.0383005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/sprites/idle player/0128_3.png
+  artifactKey: Guid(fb82f48086a695e49921ddb69089a71b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0128_3.png using Guid(fb82f48086a695e49921ddb69089a71b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cc3eb4333d26b68c5ffc22bba089b202') in 0.0455162 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/sprites/idle player/0062_3.png
+  artifactKey: Guid(6f0a682b753bfda43a0707cf3d71a537) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0062_3.png using Guid(6f0a682b753bfda43a0707cf3d71a537) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6c26246aff8d1c5180a206b743b1cf0d') in 0.0435493 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/sprites/idle player/0033_3.png
+  artifactKey: Guid(1ac83f9cd0ffdca47a1ac32d7fa2ee0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0033_3.png using Guid(1ac83f9cd0ffdca47a1ac32d7fa2ee0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '29678a54ff0bb65e67fe447ccfbad78c') in 0.0323804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/sprites/idle player/0030_3.png
+  artifactKey: Guid(3213a86650ba01d41bdb165c10178ae8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0030_3.png using Guid(3213a86650ba01d41bdb165c10178ae8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4ebf7380601e5f7ec398892645aa0129') in 0.0440675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/sprites/idle player/0014_3.png
+  artifactKey: Guid(fc4e5b119ff8efa48855544e84dd5837) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0014_3.png using Guid(fc4e5b119ff8efa48855544e84dd5837) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fe9bb4f6e34dbe1e7491efe5d7c9ae96') in 0.0363534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/sprites/idle player/0023_3.png
+  artifactKey: Guid(9d98595f02023d04e9b3fb395433e2a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0023_3.png using Guid(9d98595f02023d04e9b3fb395433e2a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c684f2d9bc1da6535d49651a066c6c22') in 0.0313768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/sprites/idle player/0137_3.png
+  artifactKey: Guid(605db5eae6cc827499843b1abb4752c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0137_3.png using Guid(605db5eae6cc827499843b1abb4752c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e7067f387e5b636c659d1fdb49130596') in 0.0294543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/sprites/idle player/0103_4.png
+  artifactKey: Guid(d08557f1ddadbf34682261730b211e6c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0103_4.png using Guid(d08557f1ddadbf34682261730b211e6c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2acb8c034c3eb97a540d57539a40cfa9') in 0.0385104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/sprites/idle player/0061_4.png
+  artifactKey: Guid(a0bdf2e445a026f4b9faa86814da87db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0061_4.png using Guid(a0bdf2e445a026f4b9faa86814da87db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3137c195107b44087182e410583f909d') in 0.0299101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/sprites/idle player/0125_4.png
+  artifactKey: Guid(78bdf81d0eadd264aa0a7f77fe810828) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0125_4.png using Guid(78bdf81d0eadd264aa0a7f77fe810828) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c4783db58cbbe5a03a08415ce043185d') in 0.0369563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/sprites/idle player/0005_3.png
+  artifactKey: Guid(bc5687b72bf58b24483cc05b87767216) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0005_3.png using Guid(bc5687b72bf58b24483cc05b87767216) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '19b490d42632ece7b2d657ef5fcc52da') in 0.0382059 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/sprites/idle player/0099_3.png
+  artifactKey: Guid(913ea51c363937a469feb9981cc60d1b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0099_3.png using Guid(913ea51c363937a469feb9981cc60d1b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4a806949ddcd103ca4a0dc444dafa60f') in 0.0333461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/sprites/idle player/0105_3.png
+  artifactKey: Guid(2f256e1bbbd7b9a4ea365bb4ef3994d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0105_3.png using Guid(2f256e1bbbd7b9a4ea365bb4ef3994d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '51e890001d790a799287469531f96314') in 0.0364702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/sprites/idle player/0041_3.png
+  artifactKey: Guid(d126edb519058f54baf3c2cc8630136a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0041_3.png using Guid(d126edb519058f54baf3c2cc8630136a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '800da16b02d11c698136787637270f3e') in 0.0304152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/sprites/idle player/0086_3.png
+  artifactKey: Guid(0febf0fb01fa87141b96726e858da8a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0086_3.png using Guid(0febf0fb01fa87141b96726e858da8a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd0c21c5b4736e762889a327727dad39f') in 0.036894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/sprites/idle player/0031_4.png
+  artifactKey: Guid(dde4b8f2082594148a0abeab4433539c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0031_4.png using Guid(dde4b8f2082594148a0abeab4433539c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e96330fcac3bbd43ca7c86280d21d241') in 0.0380412 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/sprites/idle player/0108_3.png
+  artifactKey: Guid(ee9b0074de81ccd4c98cb6c0826a8f48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0108_3.png using Guid(ee9b0074de81ccd4c98cb6c0826a8f48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd49c6df41867c4fc7cad43c86a91bdd4') in 0.0405774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/sprites/idle player/0022_4.png
+  artifactKey: Guid(43104822a2d2e214d87670b8fe2ed9e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0022_4.png using Guid(43104822a2d2e214d87670b8fe2ed9e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eae622f5d6794499e88c29a29de86f96') in 0.0450548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/sprites/idle player/0091_4.png
+  artifactKey: Guid(77162aa84ce153747b622a1eeff4ffa8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0091_4.png using Guid(77162aa84ce153747b622a1eeff4ffa8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9d99469911ea0e3b91476706911cb13b') in 0.03383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/sprites/idle player/0096_3.png
+  artifactKey: Guid(3929965162311784db2ccaf201690bba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0096_3.png using Guid(3929965162311784db2ccaf201690bba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8fb4bddf819643afd0fc1cfbf3e36390') in 0.0331163 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/sprites/idle player/0027_3.png
+  artifactKey: Guid(19ffbf03da2683541ab2e9e2f4dbe4d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0027_3.png using Guid(19ffbf03da2683541ab2e9e2f4dbe4d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '09849dc44db7cfacff4c58c41191a3a9') in 0.036077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/sprites/idle player/0047_3.png
+  artifactKey: Guid(6ad106bc2b136bc4d9f35538872b995a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0047_3.png using Guid(6ad106bc2b136bc4d9f35538872b995a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'de4dfe43c9295fd9f7f36b1d3368e2a0') in 0.0357622 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/sprites/idle player/0024_3.png
+  artifactKey: Guid(f226398b2dc01934e8b3accb43d911a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0024_3.png using Guid(f226398b2dc01934e8b3accb43d911a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '34fb68bead9db6e3aab0626d8e9e59a5') in 0.0476107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/sprites/idle player/0121_4.png
+  artifactKey: Guid(6b308fae0222b234fbb4a5a94ae59c1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0121_4.png using Guid(6b308fae0222b234fbb4a5a94ae59c1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ab5d1c36d5588e4992bae800c1f8b7a9') in 0.0379485 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/sprites/idle player/0089_3.png
+  artifactKey: Guid(e7b3682bfda22e74ea62b0542d4bee7d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0089_3.png using Guid(e7b3682bfda22e74ea62b0542d4bee7d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ec0ec8dc8ec304e98aeb6945d9a8676d') in 0.0385613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/sprites/idle player/0088_4.png
+  artifactKey: Guid(a8a96571549f64c4881e01529c68e85b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0088_4.png using Guid(a8a96571549f64c4881e01529c68e85b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f27b31a7b91aad9d6e96c27b69779c43') in 0.0449583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/sprites/idle player/0129_3.png
+  artifactKey: Guid(0c9701d6267bbb940b29b44235caac1c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0129_3.png using Guid(0c9701d6267bbb940b29b44235caac1c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a03fe0133ac7fb96101395ea42fc5bfd') in 0.0209058 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/sprites/idle player/0097_4.png
+  artifactKey: Guid(d28d20ef0df92e34fa8c86bd53ab120e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0097_4.png using Guid(d28d20ef0df92e34fa8c86bd53ab120e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a66cb0489d0042e1501cfbdcfce428b7') in 0.044138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/sprites/idle player/0141_3.png
+  artifactKey: Guid(2e8d69587fb26fe43958a1334f523577) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0141_3.png using Guid(2e8d69587fb26fe43958a1334f523577) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e39f0394a9080e51efce81ec8d56389e') in 0.0457178 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/sprites/idle player/0044_3.png
+  artifactKey: Guid(45dd4eb78ff5da74da906480a8d030cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0044_3.png using Guid(45dd4eb78ff5da74da906480a8d030cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9106994f908877d4259aec60328fbe41') in 0.0359924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/sprites/idle player/0101_3.png
+  artifactKey: Guid(cd0803f52aa1c2e4a9ab1d8508abc064) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0101_3.png using Guid(cd0803f52aa1c2e4a9ab1d8508abc064) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7f265f8d521a5a07d0072da2d3221d25') in 0.0415665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/sprites/idle player/0049_4.png
+  artifactKey: Guid(321b380b0c4fc1e41beaf3dd2f027039) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0049_4.png using Guid(321b380b0c4fc1e41beaf3dd2f027039) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '53e5d907cb14283dc6dc6e866b8b9fbe') in 0.0375415 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/sprites/idle player/0081_3.png
+  artifactKey: Guid(38f30f8256fef5a4ba46c6ef65e5a23c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0081_3.png using Guid(38f30f8256fef5a4ba46c6ef65e5a23c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b41fb524c30dd4bc318c06202983e052') in 0.0408798 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/sprites/idle player/0016_4.png
+  artifactKey: Guid(583c5206e09fe7f4f8d5ae9c89a1b373) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0016_4.png using Guid(583c5206e09fe7f4f8d5ae9c89a1b373) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2089e5c325a462008f685eaded3fbc43') in 0.0385457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/sprites/idle player/0070_4.png
+  artifactKey: Guid(77d23c99743fb6a4f9e3d1de1e59ca0f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0070_4.png using Guid(77d23c99743fb6a4f9e3d1de1e59ca0f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b0c18a7c1d70c28469b76ffb67230688') in 0.0470685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/sprites/idle player/0075_3.png
+  artifactKey: Guid(46e39095bb1a2b34993b5c0fb3cde079) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0075_3.png using Guid(46e39095bb1a2b34993b5c0fb3cde079) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4606eca8cfdc6533c9fe261cd418351c') in 0.0434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/sprites/idle player/0098_3.png
+  artifactKey: Guid(9a8b5e8b5c7684249bc4b3fde7c42f7e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0098_3.png using Guid(9a8b5e8b5c7684249bc4b3fde7c42f7e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ba368566f2dba68fe8713b53ee9c945a') in 0.0433547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/sprites/idle player/0028_4.png
+  artifactKey: Guid(27b2ed6329ce8244e91752ae8c812760) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0028_4.png using Guid(27b2ed6329ce8244e91752ae8c812760) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '28992a7309addd4140bb7573b1ddd366') in 0.0415976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/sprites/idle player/0002_3.png
+  artifactKey: Guid(1724420bb1f53174d975f03ca81e0ffb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0002_3.png using Guid(1724420bb1f53174d975f03ca81e0ffb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '06c06ae8c0a0c8b84cf637d2313dbc0e') in 0.0363417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/sprites/idle player/0094_4.png
+  artifactKey: Guid(6f5b0b6e9c4af9a46bcc3f6bb64e2762) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0094_4.png using Guid(6f5b0b6e9c4af9a46bcc3f6bb64e2762) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bed6469b659f415ec268cffea2f2a3ff') in 0.0449023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/sprites/idle player/0057_3.png
+  artifactKey: Guid(337bb1db530d74348b3cfb81705b5e06) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0057_3.png using Guid(337bb1db530d74348b3cfb81705b5e06) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '01f6e8528a55f3aff6366d8b43f0bb51') in 0.0430881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/sprites/idle player/0043_4.png
+  artifactKey: Guid(94f9d7b9b17676e4ab199bf3a4c274e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0043_4.png using Guid(94f9d7b9b17676e4ab199bf3a4c274e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b828a97299fb9fa06ad3bb117ab7c6d9') in 0.0332367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/sprites/idle player/0051_3.png
+  artifactKey: Guid(3cdb930473aef934590c6a0c166daec8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0051_3.png using Guid(3cdb930473aef934590c6a0c166daec8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ae7b860feac00e069f0e5bea954c3f63') in 0.0384836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/sprites/idle player/0003_3.png
+  artifactKey: Guid(7d6bf4d6a09af1244b006661eaf7342a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0003_3.png using Guid(7d6bf4d6a09af1244b006661eaf7342a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3e58d762aa63852ae81281d0883b0120') in 0.0491067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/sprites/idle player/0120_3.png
+  artifactKey: Guid(9e4e666c5d96cc54f9f52aa1b3166704) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/idle player/0120_3.png using Guid(9e4e666c5d96cc54f9f52aa1b3166704) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bda8927db573adeea34a6d55f79ec57c') in 0.0438902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

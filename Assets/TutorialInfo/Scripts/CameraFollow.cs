@@ -143,10 +143,13 @@ public class CameraController : MonoBehaviour
     {
         Vector3 tPos = target.position;
 
-        // Suavizar XZ y Y por separado para evitar saltos
+        // Mientras más al fondo (Z mayor), más sube la cámara
+        float extraHeight = tPos.z * 0.15f;
+        extraHeight = Mathf.Clamp(extraHeight, 0f, 4f);
+
         Vector3 targetXZ = new Vector3(tPos.x, 0f, tPos.z) + lookAheadOffset;
         smoothXZ = Vector3.SmoothDamp(smoothXZ, targetXZ, ref xzVelocity, followSmoothing);
-        smoothY = Mathf.SmoothDamp(smoothY, tPos.y, ref yVelocity, verticalSmoothing);
+        smoothY = Mathf.SmoothDamp(smoothY, tPos.y + extraHeight, ref yVelocity, verticalSmoothing);
 
         Vector3 pivot = new Vector3(smoothXZ.x, smoothY, smoothXZ.z);
 
@@ -158,8 +161,6 @@ public class CameraController : MonoBehaviour
 
         Vector3 desired = GetDesiredPosition(pivot) + shakeOffset;
         transform.position = desired;
-
-        // Rotación fija — siempre mirando ligeramente hacia abajo
         transform.rotation = Quaternion.Euler(tiltAngle, 0f, 0f);
     }
 
