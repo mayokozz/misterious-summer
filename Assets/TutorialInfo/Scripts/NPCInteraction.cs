@@ -20,6 +20,7 @@ public class NPCInteraction : MonoBehaviour
         var p = FindAnyObjectByType<PlayerController>();
         if (p != null) playerTf = p.transform;
         if (interactPrompt != null) interactPrompt.SetActive(false);
+        
     }
 
     void Update()
@@ -30,6 +31,10 @@ public class NPCInteraction : MonoBehaviour
 
         if (interactPrompt != null)
             interactPrompt.SetActive(inRange && !DialogueManager.Instance.IsActive);
+        if (Input.GetKeyDown(interactKey))
+        {
+            Debug.Log("E presionada. inRange=" + inRange + " | DialogueManager.Instance=" + (DialogueManager.Instance != null));
+        }
 
         if (inRange && Input.GetKeyDown(interactKey) && !DialogueManager.Instance.IsActive)
             DialogueManager.Instance.StartDialogue(dialogueData);
